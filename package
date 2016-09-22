@@ -1,0 +1,4 @@
+create or replace package pack1
+procedure add1(a in number,b in number);
+procedure rect(x in number, y in number);
+end;
