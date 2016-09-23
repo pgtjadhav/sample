@@ -2,3 +2,17 @@ create or replace package pack1
 procedure add1(a in number,b in number);
 procedure rect(x in number, y in number);
 end;
+
+
+
+create or replace package body pack1
+procedure add1(a in number,b in number)
+Is
+m number;
+Begin
+m:=a+b;
+dbms_output.put_line('addition='||m);
+end;
+
+procedure rect(x in number, y in number);
+end;
